@@ -18,7 +18,7 @@ Typical examples of Supervised and Unsupervised learning algorithms have been im
 
 As suggested by the lecturer, a singular attention was made towards using vectorized implementations instead of traditional for-loops in order to make good use of Linear Algebra library and have models that run faster.
 
-### Fitting the parameters of the model
+### Fitting the parameters of each model
 
 In each exercise, the **Batch Gradient Descent** algorithm was used to fit the parameters of the model. No Stochastic Gradient Descent(Updating the model's parameters on each example) nor Mini-Batch Gradient descent(Updating the model's parameters on a specified number of examples b) was implemented in this repository.
 
@@ -31,5 +31,9 @@ In each exercise, the **Batch Gradient Descent** algorithm was used to fit the p
 ## Running a single application
 
 To run ex1, simply execute ex1 in Octave/MATLAB.
+
+
+
+
 
 For more details about an exercise (Implementation, Data-set or Context) see the corresponding .pdf.
